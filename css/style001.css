@@ -1,0 +1,163 @@
+body {
+    font-family: inherit,sans-serif;
+    color: rgb(252, 250, 250);
+    background-image: url("https://bogota.gov.co/sites/default/files/2019-03/archivo_instituto_distrital_de_turismo_12.jpg");
+    backdrop-filter: brightness(30%);
+    margin: 0;
+  }
+  
+  ul {
+    list-style-image: url("../images/icons8-depot-12.png");
+    margin: 1;
+  }
+  
+  table {
+    border-spacing: 0px;
+  }
+  
+  th,
+  td {
+    padding: 10px 84px 0px 118px;
+      border-spacing: 0px;
+      font-size: 113%;
+      margin: 0px
+  }
+  
+  th,
+  td {
+    font-family: monospace;
+    text-align: left;
+    border-top: 1px solid #f1f8fe;
+    border-bottom: 1px solid #cbd2d8;
+    border-right: 1px solid #cbd2d8;
+  }
+  
+  tr.head th {
+    color: #fff;
+    background-color: #000000;
+    border-bottom: 2px solid #000000;
+    border-right: 1 solid #ffffff;
+    border-top: 1px solid #ffffff;
+    text-align: center;
+    text-shadow: -1px -1px 1px #666666;
+    letter-spacing: 0.15em;
+  }
+  
+  td {
+    text-shadow: 1px 1px 1px #000000;
+  }
+  
+  tr.even td,
+  tr.even th {
+    background-color: #000000;
+  }
+  
+  tr.head th:first-child {
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  fieldset {
+      width: 280px;
+      margin-top: 20px;
+      color: rgb(255 255 255);
+      line-height: 1.6em;
+      max-width: 456px;
+      margin: 22px auto;
+      display: -webkit-box;
+  
+  }
+  
+  legend {
+      font-style: italic;
+      color: #ffffff;
+      margin-bottom: 11%;
+  }
+  
+  input[type="text"]:focus,
+  input[type="text"]:hover {
+    background-color: #d0e2f0;
+    border: 1px solid #999999;
+  }
+  
+  input[type="submit"] {
+    border: 1px solid #9bbdac;
+    background-color: #81c5ae73;
+    color: #ffffff;
+    border-radius: 99px;
+    padding: -17px;
+    margin-top: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    border: 1px solid #006633;
+    background-color: #00cc33;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .title {
+    float: left;
+    width: 160px;
+    clear: left;
+    margin-right: 49px;
+    text-align: center;
+  
+  }
+  
+  .location{
+    margin-left: -32px;
+  
+  
+  }
+  
+  .submit {
+    width: 310px;
+    display: block;
+    margin: auto;
+
+  }
+  
+  div img {
+       width: 16%;
+    height: 57px;
+    background-repeat: no-repeat;
+  }
+  
+  div{
+    width: 1349px;
+  }
+  
+  img{
+    width: 617px;
+    background-repeat: no-repeat;
+  }
+  h1{
+    font-family: inherit, initial;
+    text-align: center;
+    font-size: 50px;
+  }
+  p{
+    font-family: revert;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 2px;
+  }
+  a{
+    color: darkcyan;
+  }
+  
+  li{
+    margin-bottom: 4px;
+  }
+  
+  .submit{
+    text-align: center;
+    margin-top: 2px;
+  }
+  .teatro{
+    background-color: #000000;
+    width: 210%;
+    height: 57px;
+  }
