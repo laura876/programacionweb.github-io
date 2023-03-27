@@ -1,0 +1,189 @@
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption {
+  display: block;
+}
+
+body {
+ 
+    font-family: Georgia, Times, serif;
+    background-image: url("https://universitariadecolombia.edu.co/wp-content/uploads/2022/03/paracompartirlogo.png");
+   
+}
+
+.wrapper {
+  width: 940px;
+  height: 787px;
+  margin: 20px auto 20px auto;
+  border: 2px solid #000000;
+  background-color: hsl(212, 25%, 42%);
+  
+}
+
+header {
+  height: 160px;
+  background-color: #000000;
+}
+
+h1 {
+    color: cadetblue;
+    line-height: 4;
+    width: 940px;
+    text-align: center;
+    height: 130px;
+    margin: 0px;
+    font-family: fantasy, Georgia, 'Times New Roman', Times, serif;
+}
+
+nav,
+footer {
+    clear: both;
+    height: 20px;
+}
+
+nav ul {
+  font-size: 17px;
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+  text-align: center;
+}
+nav li {
+  display: inline;
+  margin-right: 107px;
+}
+
+nav li a {
+  color: #ffffff;
+}
+
+nav li a:hover,
+nav li a.current {
+  color: #ffffff;
+}
+
+section.courses {
+  float: left;
+  width: 659;
+  border-right: 1px solid #eeeeee;
+}
+
+article {
+  clear: both;
+  overflow: hidden;
+  width: 100%;
+}
+
+hgroup {
+  margin-top: 40px;
+}
+
+figure {
+  float: left;
+  width: 290px;
+  height: 220px;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid #eeeeee;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-size: 90%;
+  text-align: left;
+}
+
+aside {
+  width: 230px;
+  float: left;
+  padding: 0px 0px 0px 20px;
+}
+
+aside section a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+aside section a:hover {
+  color: #985d6a;
+  background-color: #efefef;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+
+h2 {
+    color: #ff3a3ad9;
+    text-decoration-line: overline;
+    text-decoration-style: dashed;
+    margin: -22px 0px 35px 0px;
+}
+
+h3 {
+    margin: -15px 24px -55px 7px;
+    color: #000000;
+    font-size: 22px;
+    text-align: justify;
+    margin-top: -19px;
+}
+
+aside h2 {
+    text-align: center;
+    margin-right: -684px;
+    padding: 30px 0px 10px 0px;
+    color: #de6581;
+}
+
+footer {
+    font-size: 127%;
+    padding: 55px 65px 0px 377px;
+    margin: -116px;
+}
+img{
+    width: 30px;
+    height: 22px;
+}
+.center{
+    margin: 0 auto;
+    width: 300px;
+    display: block;
+}
+
+.video{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 172px;
+    width: 0%;
+    max-height: 100%;
+}
+p{
+    margin-left: 33px;
+    line-height: 2;
+    padding: 1px;
+    font-family: sans-serif;
+    color: #eeeeee;
+}
+.iconos{
+    width: -7px;
+    height: 51px;
+    font-size: 275%;
+    padding: 105px 65px 0px 279px;
+    margin: -116px;
+}
