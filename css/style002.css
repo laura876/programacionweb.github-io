@@ -17,7 +17,6 @@ body {
 }
 
 .wrapper {
-  width: 940px;
   margin: 20px auto 20px auto;
   border: 2px solid #000000;
   background-color: #ffffff;
@@ -29,8 +28,6 @@ header {
 }
 
 h1 {
-    line-height: 4;
-    width: 940px;
     text-align: center;
     height: 130px;
     margin: 0px;
@@ -42,17 +39,19 @@ nav,
 footer {
     clear: both;
     background-color: #ffaa00;
-    height: 30px;
 }
 
 nav ul {
   font-size: 17px;
-  margin: 0px;
-  padding: 5px 0px 5px 30px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  align-items: center;
 }
 nav li {
   display: inline;
-  margin-right: 107px;
 }
 
 nav li a {
@@ -66,7 +65,6 @@ nav li a.current {
 
 section.courses {
   float: left;
-  width: 659;
   border-right: 1px solid #eeeeee;
 }
 
@@ -95,9 +93,7 @@ figcaption {
 }
 
 aside {
-  width: 230px;
-  float: left;
-  padding: 0px 0px 0px 20px;
+  padding: 20px;
 }
 
 aside section a {
@@ -126,11 +122,12 @@ h2 {
     color: #ff3a3ad9;
     text-decoration-line: overline;
     text-decoration-style: dashed;
-    margin: -22px 0px 35px 0px;
+    margin: 33px auto;
+    display: block;
 }
 
 h3 {
-    margin: -15px 24px -55px 7px;
+    margin: 28px;
     color: #000000;
     font-size: 22px;
     text-align: justify;
@@ -139,15 +136,18 @@ h3 {
 
 aside h2 {
     text-align: center;
-    margin-right: -684px;
-    padding: 30px 0px 10px 0px;
     color: #de6581;
 }
 
 footer {
   font-size: 80%;
-  padding: 7px 0px 0px 370px;
 }
+
+iframe {
+  width: 100%;
+  border-radius: 24px;
+}
+
 img{
     width: 301px;
     height: 228px;
@@ -158,15 +158,6 @@ img{
     display: block;
 }
 
-.video{
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: 0 172px;
-    width: 0%;
-    max-height: 100%;
-}
 p{
     margin-left: -18px;
 }

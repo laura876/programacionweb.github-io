@@ -17,7 +17,6 @@ body {
 }
 
 .wrapper {
-  width: 933px;
   margin: 20px auto 20px auto;
   border: 2px solid #000000;
   background-color: #ffffff;
@@ -29,8 +28,6 @@ header {
 }
 
 h1 {
-    line-height: 4;
-    width: 940px;
     text-align: center;
     height: 130px;
     margin: 0px;
@@ -42,7 +39,6 @@ nav,
 footer {
     clear: both;
     background-color: #5e5c56;
-    height: 30px;
 }
 
 nav ul {
@@ -141,8 +137,15 @@ h3 {
 
 footer {
   font-size: 80%;
-  padding: 10px 0px 25px 358px;
   color: #ffffff;
+  text-align: center;
+}
+
+iframe {
+  width: 90%;
+  display: block;
+  margin: auto;
+  border-radius: 24px;
 }
 
 .center{
@@ -158,5 +161,4 @@ p {
 
 .iconos{
   margin-top: 0px;
-  margin-left: 45px;
 }
